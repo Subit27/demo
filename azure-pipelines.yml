@@ -25,7 +25,6 @@ steps:
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
 
-steps:
 - task: ArchiveFiles@1
   displayName: 'Archive files'
   inputs:
